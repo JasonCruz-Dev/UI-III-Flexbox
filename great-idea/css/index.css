@@ -204,19 +204,19 @@ h1, h2, h3, h4, h5 {
 
 /*THIS IS THE INNOVATION ON DEMAND SECTION*/
 .top-section {
-    position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
     height: 60%;
     width: 100%;
-    /*height: 45%;*/
-    /*margin-top: 6%;*/
-    margin-left: 20%;
-    /*margin-top: 30px;*/
+	margin-left: 20%;
+	margin-bottom: 8%;
 }
 
 .top-section h1 {
     position: absolute;
     display: inline-block;
-	font-size: 50px;
+	font-size: 60px;
     margin-top: 10%;
 	margin-bottom: 1px;
     margin-left: 1%;
@@ -255,23 +255,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /*THIS IS THE FEATURES, ABOVE SECTION*/
-section.left-section {
-    display: inline-block;
-    width: 30%;
-    height: 50%;
-    text-align: justify;
-    margin-left: 16%;
-    margin-right: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+.third-section-box {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: 16%;
+	margin-right: 21%;
 }
 
-section.right-section {
-    display: inline-block;
-    width: 30%;
+.third-section {
+    width: 48%;
     height: 50%;
-    text-align: justify;
-    margin-left: 10px;
+	text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*THIS IS THE MIDDLE IMAGE SECTION*/
@@ -284,33 +281,13 @@ section.right-section {
 }
 
 /*THIS IS THE BOTTOM SERVICES, PRODUCT & VISION SECTION*/
-section.bottom-left-section {
+.bottom-section {
     display: inline-block;
-    width: 20%;
+    width: 22%;
     text-align: justify;
     margin-left: 16%;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-
-section.bottom-middle-section {
-    display: inline-block;
-    width: 20%;
-    text-align: justify;
-    margin-left: 15px;
-    margin-right: 12px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-section.bottom-right-section {
-    display: inline-block;
-    width: 20%;
-    text-align: justify;
-}
-
-.facts-section {
-
 }
 
 /*BOTTOM BORDER TOP ABOVE FOOTER*/
