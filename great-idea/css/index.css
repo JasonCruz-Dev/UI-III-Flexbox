@@ -65,17 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/*THIS CODE WAS WRITTEN ON 9/7/19, BY JASON CRUZ
-    HERE I WAS LEARNING ABOUT BOX-MODELS AS I GO.
-    I HAVE ADDED NOTES TO HELP ME REMEMBER AS I GO
-    AND NOT GET LOST IF I COME BACK TO IT LATER.
+/*THIS CODE WAS EDITED & WRITTEN ON 9/12/19, BY JASON CRUZ HERE I WAS LEARNING ABOUT BOX-MODELS AS I GO. I HAVE ADDED NOTES TO HELP ME REMEMBER AS I GO AND NOT GET LOST IF I COME BACK TO IT LATER.
 */
 
 /*===== Navbar Section ======*/
 
 .navbar {
 	margin-left: 12.4%;
-
 }
 
 .navbar a {
@@ -243,12 +239,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 0;
     margin-top: 6%;
 }
-
-
-/*//////////////////////////////////////////////////////////*/
-/*/////////////// DO NOT EDIT PASS THIS LINE////////////////*/
-/*//////////////////////////////////////////////////////////*/
-
 
 /* THIS BORDER IS RIGHT ABOVE THE FEATURES AND ABOUT SECTION*/
 
