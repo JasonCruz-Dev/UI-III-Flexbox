@@ -142,29 +142,27 @@ h1, h2, h3, h4, h5 {
 
 /*===== Middle section Flexbox =====*/
 .middle-section-flexbox {
-    width: 62.1%;
-    margin-left: 16%;
+    /* width: 62.1%; */
     display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-
+	margin-left: 16%;
+	margin-bottom: 5%;
     height: 110%;
-	width: 50%;
+	width: 62.1%;
 }
 
 .middle-section-flexbox .content-box {
 	padding: 20px;
     margin-top: 4%;
     border: 1px solid black;
-	width: 50%;
+	width: 48%;
 	height: 30%;
 	background-color: lightgrey;
 }
 
 .middle-section-flexbox .content-box h1, p, a {
 	text-align: justify;
-
-
 }
 
 .bottom-border .section-border {
@@ -175,18 +173,32 @@ h1, h2, h3, h4, h5 {
 }
 /*==================================*/
 
+/*========= Bottom Section Content for Services Page=========*/
 
 .facts-section {
-    display: flex;
-    border: 1px solid black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
     width: 62.1%;
-    height: 60%;
+    height: 70%;
     margin-left: 16%;
-	display: inline-block;
-    height: 20%;
-    /* list-style-type: square; */
+    /* height: 20%; */
 }
 
+.bottom-content {
+	margin-top: 4%;
+	width: 48%;
+}
+
+.bottom-content ul li{
+	list-style-type: square;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.bottom-content .services-info-img {
+	width: 402px;
+}
 
 /*THIS IS THE INNOVATION ON DEMAND SECTION*/
 .top-section {
