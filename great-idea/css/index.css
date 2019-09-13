@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5 {
 
 .top-logo {
 	position: absolute;
-	margin-left: 7.5%;
+	margin-left: 8%;
     top: 6.5%;
 }
 /*=============================*/
@@ -274,20 +274,26 @@ h1, h2, h3, h4, h5 {
 /*THIS IS THE MIDDLE IMAGE SECTION*/
 
 .middle-image img{
-    width: 843px;
+    width: 850px;
     height: 175px;
     margin-left: 216px;
 
 }
 
 /*THIS IS THE BOTTOM SERVICES, PRODUCT & VISION SECTION*/
-.bottom-section {
-    display: inline-block;
-    width: 22%;
+.index-bottom-content {
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: 16%;
+	margin-right: 20.9%;
+}
+
+.index-bottom {
+	width: 30%;
     text-align: justify;
-    margin-left: 16%;
     margin-top: 25px;
-    margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 /*BOTTOM BORDER TOP ABOVE FOOTER*/
@@ -298,19 +304,24 @@ div .border {
 }
 
 /*CONTACT SECTION*/
-section.contact{
+.contact {
     display: inline-block;
     width: 20%;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 5%;
     margin-left: 16%;;
 }
 
-section p {
+.contact p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.body-section {
+	height: 200%
+
+
+}
 footer p{
     margin: 10px;
     text-align: center;
