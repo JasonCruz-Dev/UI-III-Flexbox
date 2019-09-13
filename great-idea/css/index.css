@@ -71,29 +71,35 @@ h1, h2, h3, h4, h5 {
 /*===== Navbar Section ======*/
 
 .navbar {
-	margin-left: 12.4%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: 14.6%;
+	margin-top: 3%;
+	width: 42%
 }
 
 .navbar a {
 	/* margin-left: 2%; */
+	font-weight: bold;
 }
 
-.navbar a.nav {
-    position: relative;
-	font-size: 18px;
-	margin-top: 3%;
+.navbar .nav {
+	display: inline-flex;
+    /* position: relative;
+	font-size: 18px; */
+	margin-top: 2%;
 	margin-left: 4%;
-    top: 20px;
-    font-size: 16px;
+	top: 20px;
     color: rgb(58, 58, 58);
     text-decoration: none;
-    display: inline-block;
+
 }
 
 .top-logo {
 	position: absolute;
 	margin-left: 7.5%;
-    top: 7%;
+    top: 6.5%;
 }
 /*=============================*/
 
